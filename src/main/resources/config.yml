@@ -1,0 +1,51 @@
+settings:
+  storage:
+    type: "flatfile"
+    options:
+      preload:
+        type: true
+        apartments: true
+        locale: true
+      flatfile:
+        files:
+          apartment: "apartments.yml"
+          type: "apartment_types.yml"
+      mysql:
+        prefix: "xfun_"
+        server: "localhost"
+        port: 3306
+        database: "apartments"
+        username: "username"
+        password: "password"
+        max_pools: 8
+  apartments:
+    multiple_apartments:
+      enabled: true
+      limits:
+        default: 1
+        gold: 2
+        diamond: 3
+        ruby: 4
+        platinum: 5
+    expansions:
+      enabled: true
+      types:
+        slot_machines:
+          enabled: true
+          apartment: "type_of_apartment"
+          price: 50000
+          options:
+            schematics:
+              1:
+                load_block: PISTON
+                schematic: "slot_machines"
+            commands:
+              1:
+                execute_as: "CONSOLE"
+                command: "give Wolfeiii dirt 1"
+    teleportation:
+      enter_distance: 2
+      require_sneak: true
+    world:
+      world_name: "Lägenheter"
+      apartments_distance: 500

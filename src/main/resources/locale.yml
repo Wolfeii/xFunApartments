@@ -1,0 +1,17 @@
+locale:
+  generic:
+    prefix: "&3&lXFUN &8» "
+    no-permission: "&cDu har inte tillåtelse till att använda detta."
+    no-apartment: "&cDu har inga tillängliga lägenheter."
+    invalid-player: "&cDen spelaren är inte online."
+    player-only: "&cDu måste vara en spelare för att använda detta kommando."
+  shop:
+    no_afford: "&cDu har inte råd med detta."
+    bought: "&aDu köpte en %type% lägenhet för %2%price%"
+  commands:
+    admin:
+      type:
+        create:
+          already_exists: "&cEn lägenhet med detta namn existerar redan, använd ett annat!"
+          no_schematic: "&cDet finns ingen existerande schematic som har detta namn."
+          created: "&aDu skapade en lägenhet med namnet %name%."

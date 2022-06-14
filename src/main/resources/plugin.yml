@@ -1,0 +1,5 @@
+name: xFunApartments
+version: '${project.version}'
+main: se.xfunserver.xfunapartments.xFunApartments
+api-version: 1.18
+authors: [ Wolfeiii ]
